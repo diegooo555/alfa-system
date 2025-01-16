@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*, body, :root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scroll-hidden{
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 100%;
+  background-color: white;
+}
+
+::-webkit-scrollbar-track{
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(191, 191, 191);
+  border-radius: 1rem;
+}
+
+.time-line{
+    background-color: red;
+}
