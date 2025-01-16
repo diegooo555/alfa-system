@@ -119,7 +119,7 @@ export interface TaskObjectProps {
   setTaskModal: (value: {
     state: boolean;
     task: {
-      id: string;
+      _id: string;
       title: string;
       description: string;
       dateStart: string;

@@ -12,7 +12,7 @@ function Task({task, positionPorcent, heightPorcent, leftPorcent, setTaskModal, 
         left: `${leftPorcent}%`,
         backgroundColor: task.color,
       }}
-      onClick={(e) => setTaskModal({ state: true, task: { ...task, id: task.id || '' }, x: e.clientX, y: e.clientY })}
+      onClick={(e) => setTaskModal({ state: true, task: { ...task, _id: task.id || '' }, x: e.clientX, y: e.clientY })}
       title={task.title}
     >
       <span className="w-full text-center">{task.title}</span>
