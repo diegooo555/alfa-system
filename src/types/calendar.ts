@@ -48,7 +48,7 @@ export interface WindowQuestionProps {
 }
 
 export interface TaskData {
-  id?: string;
+  _id: string;
   title: string;
   description: string;
   dateStart: string;
