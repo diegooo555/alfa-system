@@ -1,3 +1,4 @@
+"use client"
 
 const hoursDay = [
     { hour: 12, amPm: "AM" },

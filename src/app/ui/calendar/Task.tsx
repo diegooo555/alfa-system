@@ -1,3 +1,5 @@
+"use client"
+
 import { TaskObjectProps } from "@/types/calendar";
 
 function Task({task, positionPorcent, heightPorcent, leftPorcent, setTaskModal, strIntervalHour}: TaskObjectProps) {
