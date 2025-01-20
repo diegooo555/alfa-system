@@ -1,3 +1,5 @@
+"use client"
+
 import IndicatorHour from "./IndicatorHour";
 import { getComponentsFullDate, getElementsTask, filterTaskByWeek, arrSimpleDaysWeek, calculateHeightPorcent  } from "@/logic/calendar";
 

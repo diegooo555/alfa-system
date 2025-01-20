@@ -1,3 +1,5 @@
+"use client"
+
 import { DayObjectProps } from "@/types/calendar";
 import { RowsHour } from "./RowsHour";
 import IndicatorHour from "./IndicatorHour";

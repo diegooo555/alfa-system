@@ -1,3 +1,5 @@
+"use client"
+
 import { useState, useContext } from "react";
 import { ModalCreate } from "@/contexts/calendar/ModalCreateContext";
 import { ModalCreateProps } from "@/types/calendar";
